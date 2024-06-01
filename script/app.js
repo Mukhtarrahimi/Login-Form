@@ -3,6 +3,8 @@ const nameField = document.getElementById("nameField");
 const signinBtn = document.getElementById("signinBtn");
 const signupBtn = document.getElementById("signupBtn");
 const forgotPass = document.getElementById('forgotPass');
+const lostPass = document.getElementById('lostPass');
+const buttons = document.getElementById('buttons');
 
 signinBtn.onclick = () => {
   title.innerHTML = "Sign In";
