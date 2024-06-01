@@ -22,7 +22,7 @@ body{
 .form-box{
     width: 380px;
     background-color: #fff;
-    padding: 40px;
+    padding: 50px 40px;
     position: relative;
     border-radius: 3px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
@@ -75,6 +75,7 @@ body{
 .forgot-pass{
     font-size: 14px;
     font-family: sans-serif;
+    display: none;
 }
 .forgot-pass a{
     text-decoration: none;
@@ -99,10 +100,6 @@ body{
     color: #fff;
     cursor: pointer;
     font-family: 'poppins', sans-serif;
-}
-
-.input-group{
-    height: 280px;
 }
 
 .input-bnt button.disable{
